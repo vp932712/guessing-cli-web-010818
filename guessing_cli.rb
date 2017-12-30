@@ -9,7 +9,7 @@ ran = rand(7)
 if ran == input.to_i
   puts "You guessed the correct number!"
 else
-  puts "The computer guessed #{input}"
+  puts "The computer guessed #{ran}"
 end
 end
 puts'Goodbye!'
