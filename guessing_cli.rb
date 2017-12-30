@@ -7,8 +7,9 @@ input= gets.chomp
 ran = rand(10)
 if ran == input.to_i
   puts "You guessed the correct number!"
-else 
+else
   puts "The computer guessed #{input}"
+end
 end
 puts'Goodbye!'
 end
