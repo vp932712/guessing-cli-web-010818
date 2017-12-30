@@ -4,7 +4,7 @@ def run_guessing_game
 input= ''
 while input!= 'exit'
 input= gets.chomp
-ran = rand(10)
+ran = rand(7)
 if ran == input.to_i
   puts "You guessed the correct number!"
 else
